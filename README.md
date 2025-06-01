@@ -35,13 +35,14 @@ A simple Django web application that allows users to submit job applications via
 
 ## 🔧 Setup Instructions
 
-### 1. Clone the repository
+### 1. Clone the repository:
+
+[GitHub Repository Link](https://github.com/mihirpatil37/job_application_form_Django.git)
 
 ```bash
-[git clone https://github.com/mihirpatil37/job-application-django.git](https://github.com/mihirpatil37/app_15_job_application_form_Django.git)
+git clone https://github.com/mihirpatil37/job_application_form_Django.git
 cd job_application_form_Django
 ```
-
 ### 2. Create and activate a virtual environment
 ```bash
 python -m venv venv
