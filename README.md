@@ -3,7 +3,7 @@ A simple Django web application that allows users to submit job applications via
 
 
 
-## 📂 Project Structure
+## Project Structure
 ```
 ├── job_application/
 │   ├── admin.py
@@ -20,20 +20,16 @@ A simple Django web application that allows users to submit job applications via
 └── mysite/
     └── urls.py
 ```
+## Features
 
+- Submit job applications (first name, last name, email, availability, occupation)
+- Save applications to SQLite database
+- Send automatic confirmation email to applicant
+- Admin panel with filters and search
+- Responsive UI using Bootstrap 5
+- Static About page and navigation
 
-## 🚀 Features
-
-- 📋 Submit job applications (first name, last name, email, availability, occupation)
-- 💾 Save applications to SQLite database
-- 📧 Send automatic confirmation email to applicant
-- 🔐 Admin panel with filters and search
-- 🧭 Responsive UI using Bootstrap 5
-- 📄 Static About page and navigation
-
----
-
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository:
 
@@ -81,20 +77,20 @@ Users can enter:
 - Data is validated and saved to the database
 - A confirmation email is sent to the applicant
 - A success message is displayed
-## Admin Panel
+### Admin Panel
 Visit http://127.0.0.1:8000/admin/ to:
 - View submitted applications
 - Filter by occupation or start date
 - Search by name or email
 - Use Django’s built-in features
 
-## 🧭 Navigation
+### Navigation
 A Bootstrap-based navbar links to:
 - Home
 - About (with extendable content)
 - Contact (placeholder)
 
-## 📬 Email Confirmation Logic
+### Email Confirmation Logic
 Handled inside views.py:
 ```bash
 python
@@ -105,10 +101,10 @@ email_message = EmailMessage(
 )
 email_message.send()
 ```
-## 📄 License
+## License
 This project is licensed under the MIT License.
 
-## 👨‍💻 Author
+## Author
 Developed by Mihir Patil
 
-### 💡 Feel free to contribute, suggest improvements, or report issues via GitHub.
+### Feel free to contribute, suggest improvements, or report issues via GitHub.
